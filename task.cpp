@@ -1,3 +1,5 @@
+// Copyright 2021 Leonid Perlin
+
 #include <algorithm>
 #include <cassert>
 #include <iostream>
@@ -19,9 +21,7 @@ class ITree {
     }
     std::queue<Node *> nodes;
     nodes.push(root);
-    int currentLayerW = 1,
-        nextLayerW = 0,
-        maxWidth = 0;
+    int currentLayerW = 1, nextLayerW = 0, maxWidth = 0;
     while (!nodes.empty()) {
       for (int i = 0; i < currentLayerW; i++) {
         Node *curr = nodes.front();
