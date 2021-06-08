@@ -1,2 +1,1 @@
-# technopark-mail.ru-algs-data-structs-2021
-тссссссссссссссссссссссссс
+# Перлин Леонид АПО-13
